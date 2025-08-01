@@ -262,6 +262,7 @@ export default function GoogleSheetsForm() {
                       <SelectItem value="Reports">Reports</SelectItem>
                       <SelectItem value="Calculator">Calculator</SelectItem>
                       <SelectItem value="Analytics">Analytics</SelectItem>
+                      <SelectItem value="OCR">OCR</SelectItem>
                     </SelectContent>
                   </Select>
                   {validationErrors.cfApiCategory && (
